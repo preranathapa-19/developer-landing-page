@@ -41,11 +41,6 @@ html, body {
 
 }
 
-.work{
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .footer{
     display: flex;
