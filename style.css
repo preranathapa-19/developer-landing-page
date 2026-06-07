@@ -1,38 +1,69 @@
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body, html{
-    line
+html, body {
+    height: 100%;
+    width: 100%;
 
 }
 
-
-.hero_section{
-    background-image: url(images/image1);
-    min-height: 100vh;
-    background-position: center;
+.hero-section{
+    background-image: url(images/coverimg.png);
     background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+   
 }
 
-.text_container, h1{
+.ptext{
+    color: white;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+   
+
 }
-.text_container, h2{
-    display: flex;
-    align-items: center;
+.smalltxt{
+    font-size: large;
 }
 
-
-footer{
+.btext{
     background-color: black;
     color: white;
-    padding: 20px 10px;
-    align-items:center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.contact-me{
+    background-color: #676c08;
+        text-align: center;
+        color: white;
+
+}
+.about-me{
+    background-color: #832f08;
+    color: white;
+     text-align: center;
 }
 
 
+.bl-text{
+    background-color: black;
+    color: white;
+    padding: 23px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
