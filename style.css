@@ -41,6 +41,34 @@ html, body {
 
 }
 
+.btext h1 span {
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(30px, 1fr);
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     display: flex;
